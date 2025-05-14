@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/videogrid.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/sidebar.css" />
+    <style>
+      <!-- Comment -- > * {
+        font-size: 14px;
+        color: #555;
+        font-family: "Roboto", sans-serif;
+        margin: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left">
+        <img
+          src="/Youtube/Icons/hamburger-menu.svg"
+          alt="hamburger"
+          class="leftlogo"
+        />
+        <img
+          src="/Youtube/Icons/youtube-logo.svg"
+          alt="youtube-logo"
+          class="leftlogo"
+        />
+      </div>
+      <div class="center">
+        <input type="text" placeholder="Search" class="search-bar" />
+        <button class="searchlogo">
+          <img
+            src="/Youtube/Icons/search.svg"
+            alt="search"
+            class="search-icon"
+          />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="miclogo">
+          <img
+            src="/Youtube/Icons/voice-search-icon.svg"
+            alt="mic"
+            class="mic-icon"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right">
+        <div class="upload-icon-container">
+          <img
+            src="/Youtube/Icons/upload.svg"
+            alt="upload"
+            class="upload-icon"
+          />
+          <div class="tooltip">Create</div>
+        </div>
+        <img
+          src="/Youtube/Icons/youtube-apps.svg"
+          alt="apps"
+          class="youtubeapps-icon"
+        />
+        <div style="position: relative">
+          <img
+            src="/Youtube/Icons/notifications.svg"
+            alt="notifications"
+            class="notifications-icon"
+          />
+          <div class="notification-count">3</div>
+        </div>
+        <img
+          src="https://supersimple.dev/exercises/youtube/channel-profile-pics/my-channel.jpeg"
+          alt="profile-picture"
+          class="current-user-icon"
+        />
+      </div>
+    </div>
+    <div class="video-preview-grid">
+      <div class="video-preview-container">
+        <div class="thumbnail-container">
+          <img
+            class="thumbnail"
+            src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-1.webp"
+            alt="thumbnail"
+          />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-container">
+          <div class="profile-picture-container">
+            <img
+              class="profile-picture"
+              src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-1.jpeg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="sidebar">
+            <div class="sidebar-link">
+              <img
+                src="https://supersimple.dev/exercises/youtube/icons/home.svg"
+                alt=""
+              />
+              <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+              <img
+                src="https://supersimple.dev/exercises/youtube/icons/explore.svg"
+                alt=""
+              />
+              <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+              <img
+                src="https://supersimple.dev/exercises/youtube/icons/subscriptions.svg"
+                alt=""
+              />
+              <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+              <img
+                src="https://supersimple.dev/exercises/youtube/icons/originals.svg"
+                alt=""
+              />
+              <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+              <img
+                src="https://supersimple.dev/exercises/youtube/icons/youtube-music.svg"
+                alt=""
+              />
+              <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+              <img
+                src="https://supersimple.dev/exercises/youtube/icons/library.svg"
+                alt=""
+              />
+              <div>Library</div>
+            </div>
+          </div>
+          <div class="video-data-container">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="channel-name">Marques Brownlee</p>
+            <p class="video-data">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview-container">
+        <div class="thumbnail-container">
+          <img
+            class="thumbnail"
+            src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-2.webp"
+            alt="thumbnail"
+          />
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-container">
+          <div class="profile-picture-container">
+            <img
+              class="profile-picture"
+              src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-2.jpeg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-data-container">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="channel-name">Markiplier</p>
+            <p class="video-data">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview-container">
+        <div class="thumbnail-container">
+          <img
+            class="thumbnail"
+            src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-3.webp"
+            alt="thumbnail"
+          />
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-container">
+          <div class="profile-picture-container">
+            <img
+              class="profile-picture"
+              src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-3.jpeg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-data-container">
+            <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="channel-name">SSSniperWolf</p>
+            <p class="video-data">12M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview-container">
+        <div class="thumbnail-container">
+          <img
+            class="thumbnail"
+            src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-4.webp"
+            alt="thumbnail"
+          />
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-container">
+          <div class="profile-picture-container">
+            <img
+              class="profile-picture"
+              src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-4.jpeg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-data-container">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="channel-name">Veritasium</p>
+            <p class="video-data">18M views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview-container">
+        <div class="thumbnail-container">
+          <img
+            class="thumbnail"
+            src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-5.webp"
+            alt="thumbnail"
+          />
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-container">
+          <div class="profile-picture-container">
+            <img
+              class="profile-picture"
+              src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-5.jpeg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-data-container">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="channel-name">CS Dojo</p>
+            <p class="video-data">519K views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview-container">
+        <div class="thumbnail-container">
+          <img
+            class="thumbnail"
+            src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-6.webp"
+            alt="thumbnail"
+          />
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-container">
+          <div class="profile-picture-container">
+            <img
+              class="profile-picture"
+              src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-6.jpeg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-data-container">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I'll Pay For
+            </p>
+            <p class="channel-name">MrBeast</p>
+            <p class="video-data">141M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
